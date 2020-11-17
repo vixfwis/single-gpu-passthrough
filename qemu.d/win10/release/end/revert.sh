@@ -1,6 +1,7 @@
 #!/bin/bash
 set -x
 
+systemctl stop sshd
 cpupower frequency-set -g schedutil
 
 # Load the config file with our environmental variables

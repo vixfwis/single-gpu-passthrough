@@ -36,3 +36,4 @@ modprobe vfio_pci
 modprobe vfio_iommu_type1
 
 cpupower frequency-set -g performance
+systemctl start sshd
